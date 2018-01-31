@@ -1,0 +1,25 @@
+@import "uikit.min";
+@import "mediaplayer.min";
+
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+// headline
+
+h1 {
+  text-transform:uppercase;
+  
+}
+
+.char1 {
+  color:orange;
+}
+
+.char7 {
+  color:green;
+}
+
+// body
+// score: 0, 0, 0, 2
+body h1, article p{
+  font-family: 'Lobster Two', cursive;
+}
