@@ -1,25 +1,42 @@
 @import "uikit.min";
 @import "mediaplayer.min";
 
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 
+html {
+  background-color:black;
+ 
+}
 // headline
 
 h1 {
   text-transform:uppercase;
+  text-align:center;
+  color:white;
   
 }
 
-.char1 {
+
+// body
+video {
+  border: 10px solid red;
+  align-self:center;
+}
+
+// score: 0, 0, 0, 2
+ul {
+  list-style-type:none;
+}
+
+a:link {
+  color:red;
+  text-decoration:none;
+}
+
+a:visited {
   color:orange;
 }
 
-.char7 {
-  color:green;
+a:hover {
+  background-color:yellow;
 }
 
-// body
-// score: 0, 0, 0, 2
-body h1, article p{
-  font-family: 'Lobster Two', cursive;
-}
